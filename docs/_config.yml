@@ -22,13 +22,15 @@ title: Welcome
 email: begilrene@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Byron Gil, an aspiring recent graduate from Cal Poly Pomona.
-  BS Computer Science
+  BS Computer Science.
   Trying to make the world a better and more inclusive place.
-baseurl: "/index" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://begilrene.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: n/a
 github_username:  BeGilRene
-markdown: kramdown
+#markdown: kramdown
+sass:
+  sass_dir: _sass
 # Build settings
 #theme: minima
 plugins:
