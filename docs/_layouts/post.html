@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -17,12 +16,12 @@ comments: true
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }} {{page.url}}{%include disqus.html %} {{page.id}}
+    {{ content }}
   </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <div>
+    {{site.url}}{{page.url}}
+  </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+{% include disqus.html %}

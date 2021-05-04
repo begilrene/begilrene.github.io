@@ -8,6 +8,3 @@ comments: true
 
 It's nice to meet you. I'm just writing this as a test introduction to the website, but hope to post more and more as I come up
 with things to write about!
-
-
-{% include disqus.html %}
