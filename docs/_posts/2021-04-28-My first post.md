@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day One"
+title: "Early Days"
 date: 2021-04-28 12:29:00 -8000
 categories: blog
 comments: true
