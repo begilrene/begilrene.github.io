@@ -55,7 +55,7 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
+  max-width: 50%;
   vertical-align: middle;
 }
 
@@ -105,6 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $brand-color;
   text-decoration: none;
+    border-right: 30px;
+    color:black;
 
   &:visited {
     color: darken($brand-color, 15%);

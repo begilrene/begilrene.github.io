@@ -3,7 +3,7 @@
  */
 .site-header {
   border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 5px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -39,7 +39,9 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
-
+    padding-right: 10px;
+    border-right: 1px solid black;
+    border-right-style: dotted;
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
@@ -52,7 +54,7 @@
     right: $spacing-unit / 2;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: right;
 
     label[for="nav-trigger"] {
